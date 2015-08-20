@@ -1,0 +1,13 @@
+*.project
+*.classpath
+local.properties
+*/local.properties
+project.properties
+demo/bin/
+demo/gen/
+*.DS_Store
+*/bin/
+*/gen/
+.settings/
+*.apk
+*.class

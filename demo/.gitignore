@@ -1,0 +1,14 @@
+/.classpath
+/.project
+/.settings
+/assets
+/bin
+/build
+/gen
+/libs/*.jar
+/libs/armeabi
+/libs/src
+/libs/*.properties
+/lint.xml
+/proguard
+/project.properties
