@@ -1,6 +1,6 @@
 ![](images/leak_icon.png)
 # LeakCanary For Eclipse
-该项目是从[LeakCanary](https://github.com/square/leakcanary)移植到Eclipse的实现版,原始代码是从[这里](http://vjson.com/wordpress/leakcanary%E8%AE%A9android%E5%86%85%E5%AD%98%E6%B3%84%E6%BC%8F%E6%97%A0%E5%A4%84%E9%81%81%E5%BD%A2.html)获得,并进行了一些修改。
+该项目是从[LeakCanary](https://github.com/square/leakcanary)移植到Eclipse的实现版,原始代码是从[这里](http://vjson.com/wordpress/leakcanary%E8%AE%A9android%E5%86%85%E5%AD%98%E6%B3%84%E6%BC%8F%E6%97%A0%E5%A4%84%E9%81%81%E5%BD%A2.html)获得,并进行了一些修改。用了这个项目就可以很方便的找到内存泄漏问题啦，摆脱难用的MAT吧！
 
 ## 使用
 
