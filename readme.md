@@ -66,6 +66,6 @@ public class MyApplication extends Application {
 
 ![](images/leak.png)
 
-上述信息很全面，第一行表示在`com.leakcanary.demo`中发生内存泄漏，泄漏的对象是`com.leakcanary.demo.OtherActivity`,只有它的是`com.leakcanary.demo.ActivityManager.sInstance`对象。
+上述信息很全面，第一行表示在`com.leakcanary.demo`中发生内存泄漏，泄漏的对象是`com.leakcanary.demo.OtherActivity`,持有它的是`com.leakcanary.demo.ActivityManager.sInstance`对象。
 
 其他使用均与LeakCanary相似，可查看LeakCanary的相关资料。
