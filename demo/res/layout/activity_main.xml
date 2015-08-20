@@ -2,21 +2,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center"
     tools:context="com.leakcanary.demo.MainActivity" >
 
     <Button
         android:id="@+id/btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="到下一个Activity"
-        android:textSize="14sp" />
-
-    <TextView
-        android:background="#ff0000"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:text="内存泄漏实践，在两个Activity中来回切换,FirstActivity"
-        android:textSize="14sp" />
+        android:text="到OtherActivity"
+        android:textSize="20sp" />
 
 </RelativeLayout>
